@@ -1,3 +1,4 @@
+#! /bin/bash
 for f in ./ligands/*.pdbqt; do
     b=`basename $f .pdbqt`
     echo Processing ligand $b
